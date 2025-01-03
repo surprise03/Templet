@@ -141,6 +141,89 @@ display: inline-block;
    margin-left: 30px ;
  }
  
+ /* Base Styles: Same as your provided code */
+/* Add this below your existing styles to make it responsive */
+
+@media (max-width: 768px) {
+  /* Header adjustments */
+  .fixed {
+      height: auto;
+      padding: 10px;
+      box-shadow: 0px 0px 5px 2px gray;
+  }
+
+  .fixed1, .fixed2 {
+      display: block;
+      text-align: center;
+      margin: 10px auto;
+      width: auto;
+  }
+
+  .fixed2 {
+      position: static;
+  }
+
+  /* Images */
+  .image {
+      width: 100%;
+      padding: 10px;
+  }
+
+  .over {
+      top: -300px;
+      left: 10%;
+      font-size: 30px;
+      text-align: center;
+  }
+
+  /* Containers */
+  .container {
+      height: auto;
+      margin: 5px 0;
+  }
+
+  .box {
+      width: 100%;
+      height: auto;
+      margin: 5px 0;
+      left: 0;
+  }
+
+  .img {
+      width: 100%;
+      height: auto;
+  }
+
+  /* About Content */
+  #size, #contact, #one {
+      font-size: 30px;
+      margin-left: 10px;
+  }
+
+  .container2 {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .item12 {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+  }
+
+  .img1 {
+      width: 100%;
+      height: auto;
+  }
+
+  .data1 {
+      width: 90%;
+      height: 30px;
+  }
+}
+
 
 
 
