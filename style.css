@@ -1,0 +1,145 @@
+ .fixed {
+    width: 100%;
+    height: 40px;
+    padding: 0px;
+    margin: 0px;
+    box-shadow: 0px 0px 10px 5px gray;
+    background-color: rgb(240, 231, 231);
+
+    position: fixed;
+ }
+
+ * {
+    margin: 0;
+ }
+
+ .fixed1 {
+    width: 100px;
+    display: inline-block;
+    padding: 10px;
+
+ }
+
+ .fixed2 {
+    width: 300px;
+    display: inline-block;
+    padding: 10px;
+    position: absolute;
+    right: -123px;
+
+ }
+
+ .item {
+    text-decoration: none;
+    color: black;
+ }
+
+ .image {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: inline-block;
+    position: relative;
+    z-index: -1;
+
+ }
+
+ .over {
+
+    position: relative;
+    top: -460px;
+    left: 44%;
+    z-index: -1;
+    font-size: 50px;
+    color: white;
+    
+ }
+
+ #back{
+  background-color:  rgb(255, 0,0, 0.5);
+ }
+
+ .container{
+   width: 100%;
+   height: 496px;
+  
+   margin: 10px;
+
+ }
+
+ .box{
+   width:336px;
+   height: 212px;
+   
+   display: inline-block;
+   margin: 10px;
+   position: relative;
+   left: 10px;
+   z-index: -1;
+ }
+
+ .img{
+   width:100%;
+   height: 100%;
+   
+   
+  
+
+ }
+ #top{
+   width: 130px;
+   height: 30px;
+   background-color: black;
+   color: white;
+   padding-top: 7px;
+   position: absolute;
+   top: 0;
+
+ }
+ #one{
+   margin: 30px;
+ }
+
+ /* About content */
+
+ #size{
+   font-size: 40px;
+   margin-left: 30px ;
+
+ }
+ .container2{
+   width: 100%;
+   height: 400px;
+   
+ }
+ .item12{
+width: 363px;
+
+height: 100%;
+
+display: inline-block;
+
+ }
+ .img1{
+   width: 100%;
+   height: 60%;
+ }
+ #contact{
+   font-size: 40px;
+   margin-left: 30px ;
+ }
+ .suraj{
+   margin-left: 30px;
+ }
+ .data1{
+   width: 70%;
+   height: 25px;
+   margin: 5px;
+ }
+ 
+
+
+
+
+
+ 
